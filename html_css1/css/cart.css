@@ -1,0 +1,88 @@
+/* td, th {
+  border: 1px solid black;
+}
+table {
+  border-collapse: collapse; 셀 간의 간격 없애줌
+} */
+
+.cart-background {
+  width: 100%;
+  background-color: #c2d3de;
+  padding: 30px;
+}
+.cart-table {
+  width: 100%;
+  max-width: 700px;
+  margin: auto;
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+}
+table {
+  border-collapse: collapse;
+}
+.cart-table td, th {
+  padding: 15px;
+  border-bottom: 1px solid #c2d3de;
+}
+.cart-table th:nth-child(2) {
+  width: 200px;
+}
+.btn {
+  float: right;
+  margin-top: -40px;
+  padding: 10px;
+  color: white;
+  background-color: purple;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: coral;
+}
+.btn:focus {
+  background-color: gray;
+}
+.btn:active {
+  background-color: chocolate;
+} /*focus와 active 순서 중요함*/
+
+.input-test {
+  font-size: 20px;
+}
+.input-test:focus {
+  border: 2px solid red;
+}
+
+.custom-link {
+  text-decoration: none;
+}
+.custom-link:link {
+  color: violet;
+}
+.custom-link:visited {
+  color: red;
+}
+
+
+.f-small {
+  font-size: 12px;
+}
+.f-mid {
+  font-size: 16px;
+}
+.f-lg {
+  font-size: 20px;
+}
+.main-btn {
+  padding: 15px;
+  border: none;
+  cursor: pointer;
+}
+.bg-red {
+  background-color: red;
+}
+.bg-blue {
+  background-color: blue;
+}

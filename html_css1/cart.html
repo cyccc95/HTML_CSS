@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/cart.css">
+</head>
+<body>
+  <div>
+    <div>
+      <p style="font-size: 50px;">greetings<span style="font-size: 20px; vertical-align: top;">안녕</span></p>
+    </div>
+
+    <div> <img src="https://mdn.mozillademos.org/files/12245/frame_image.svg" width="32" height="32"> <span style="vertical-align: top;">image with a default alignment.</span></div>
+  </div>
+
+  
+  <div class="cart-background">
+    <h3>Your Shopping Cart</h3>
+    <table class="cart-table">
+      <thead>
+        <tr>
+          <th></th>
+          <th class="cell-long">Item</th>
+          <th>Amount</th>
+          <th>Price</th>
+          <th>Total</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><img src="image/item1.png" width="50px"></td>
+          <td>카메라</td>
+          <td>1</td>
+          <td>7000</td>
+          <td>7000</td>
+        </tr>
+        <tr>
+          <td><img src="image/item1.png" width="50px"></td>
+          <td>카메라</td>
+          <td>1</td>
+          <td>7000</td>
+          <td>7000</td>
+        </tr>
+        <tr>
+          <td colspan="5" style="text-align: right;">총가격 : 7000</td>
+        </tr>
+      </tbody>
+    </table>
+    <p><u>Edit your shopping cart</u></p>
+    <button class="btn">Choose payment method</button>
+    <div style="clear: both;"></div>
+  </div>
+  <input class="input-test">
+  <a href="#" class="custom-link">링크</a>
+  <br><br>
+
+  <button class="main-btn bg-red f-lg">더알아보기</button>
+  <button class="main-btn bg-blue f-small">구매하기</button>
+
+  <div class="profile">
+    <img class="profile__img">
+    <h4 class="profile__title"></h4>
+    <p class="profile__content"></p>
+    <button class="profile__button--red">버튼1</button>
+    <button class="profile__button--blue">버튼2</button>
+  </div>
+  <!-- class 작명할 때 창의력이 딸리면
+  Block__Element--Modifier 룰 따라해보셈 -->
+  
+</body>
+</html>

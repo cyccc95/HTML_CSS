@@ -1,0 +1,32 @@
+img {
+  width: 100px;
+  display: block; 
+  margin-left: auto; margin-right: auto;
+}
+.name {
+  font-size: 16px;
+  color: blue; 
+  letter-spacing: 1px; text-align: center;
+}
+p {
+  text-align: center;
+}
+span {
+  color: red; 
+  font-weight: 900;
+}
+.content {
+  width: 150px;
+  margin: 30px;
+  padding: 10px;
+  /* border: 4px solid black; */
+  border-radius: 15px;
+  background-color: cadetblue;
+  display: block; /*div는 기본적으로 block*/
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  font-size: 16px;
+  color: white;
+  box-shadow: 5px 5px black;
+}

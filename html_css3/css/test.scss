@@ -1,0 +1,91 @@
+@use '_reset.scss';
+// _를 붙이면 컴파일 안해줌
+
+$메인칼라 : #2a4bc2;
+$서브칼라 : #eeeeee;
+$기본사이즈 : 16px;
+
+.background {
+  background: $메인칼라;
+  font-size: $기본사이즈;
+}
+
+.box {
+  color: $서브칼라;
+  font-size: $기본사이즈 + 2px;
+}
+
+.main-bg h4 {
+  font-size: 16px;
+}
+.main-bg button {
+  color: red;
+}
+
+// nesting 문법
+.main-bg { 
+  h4 {
+    font-size: 16px;
+  }
+  button {
+    color: red;
+  }
+}
+
+
+// extend 문법
+%btn { //임시클래스 %가 아닌 .btn 도 가능
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+}
+
+.btn-green {
+  color: green;
+  @extend %btn;
+}
+.btn-red {
+  color: red;
+  @extend %btn;
+}
+
+// homework
+.container {
+  display: flex;
+}
+%box {
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+}
+.red {
+  @extend %box;
+  background-color: red;
+}
+.green {
+  @extend %box;
+  background-color: green;
+}
+.blue {
+  @extend %box;
+  background-color: blue;
+}
+
+// mixin 문법
+
+@mixin 폰트스타일($구멍, $구멍2) {
+  font-size: $구멍;
+  letter-spacing: $구멍2;
+  // 변수에 구멍 넣을때는 #{ $구멍2 }
+}
+h2 {
+  @include 폰트스타일(30px, -1px);
+  color: reset.$메인칼라2;
+}
+h3 {
+  @include 폰트스타일(20px, 1px);
+}
+h4 {
+  @include 폰트스타일(10px, 2px);
+}
+

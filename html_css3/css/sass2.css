@@ -1,0 +1,50 @@
+.sh-list li {
+  list-style: none;
+  padding: 15px;
+  border: 1px solid #eee;
+}
+.sh-list .active {
+  background-color: skyblue;
+  color: white;
+}
+.sh-list .active:hover {
+  background-color: blue;
+}
+
+.alert-box-skyblue, .alert-box-orange, .alert-box-green {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #eee;
+  color: white;
+}
+
+.alert-box-green {
+  background-color: green;
+}
+
+.alert-box-orange {
+  background-color: orange;
+}
+
+.alert-box-skyblue {
+  background-color: skyblue;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+.row .col-6 {
+  width: 50%;
+  float: left;
+  padding: 15px;
+  background-color: skyblue;
+  border: 1px solid #eee;
+}
+.row .col-4 {
+  width: 33.3333333333%;
+  float: left;
+  padding: 15px;
+  background-color: skyblue;
+  border: 1px solid #eee;
+}/*# sourceMappingURL=sass2.css.map */

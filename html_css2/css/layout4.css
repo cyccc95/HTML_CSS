@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar-logo {
+  font-size: 30px;
+}
+.navbar-menu {
+  display: flex;
+  font-size: 20px;
+}
+.navbar-menu div {
+  margin-left: 10px;
+}
+
+.main-background {
+  width: 100%;
+  height: 500px;
+  background-image: url(../image/shoes.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 1px;
+  text-align: center;
+  position: relative;
+}
+.main-title {
+  color: white;
+  font-size: 40px;
+  margin-top: 70px;
+  padding: 10px;
+}
+.main-text {
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+}
+.main-button {
+  padding: 10px;
+  font-size: 20px;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  /* position: relative; 내 원래 위치 기준으로 이동*/
+  /*static, fixed 많이 씀*/
+  /*absolute : 내 부모 태그 중에 relative를 가진 부모 기준*/
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 150px;
+}
+.explain-box {
+  background-color: #eee;
+  width: 80%;
+  max-width: 600px;
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+  position: relative;
+  top: -40px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1200px) {
+  .main-title {
+    font-size: 30px;
+  }
+}

@@ -1,0 +1,77 @@
+body {
+  background-color: darkslategrey;
+}
+.container {
+  background-color: white;
+  width: 60%;
+  margin: auto;
+  margin-top: 70px;
+  padding: 30px;
+  height: 450px;
+}
+.title {
+  font-size: 30px;
+  font-weight: bold;
+}
+.email {
+  margin-top: 20px;
+}
+.email > input {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.first-name {
+  float: left;
+  margin-top: 20px;
+}
+.first-name > input {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.last-name {
+  float: right;
+  margin-top: 20px;
+}
+.last-name > input {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.message {
+  clear: both;
+  margin-top: 100px;
+}
+.message > input {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  height: 150px;
+}
+.subscribe {
+  float: left;
+  margin-top: 20px;
+}
+.send-button > button {
+  float: right;
+  margin-top: 20px;
+  background-color: orange;
+  border: none;
+  padding: 5px;
+  width: 100px;
+  color: white;
+  border-radius: 5px;
+}
