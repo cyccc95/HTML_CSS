@@ -1,0 +1,48 @@
+.container {
+  background-color: beige;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  /* flex-flow: row nowarp; 기본값*/
+  justify-content: space-around; /*main axis*/
+  align-items: center; /*반대axis*/
+  align-content: space-between;
+}
+.item {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+}
+.item1 {
+  background-color: #ef9a9a;
+  flex: 2 2 auto; /*grow, shrink, basis*/
+  align-self: center;
+}
+.item2 {
+  background-color: #f48fb1;
+}
+.item3 {
+  background-color: #ce93d8;
+}
+.item4 {
+  background-color: #b39ddb;
+}
+.item5 {
+  background-color: #90caf9;
+}
+.item6 {
+  background-color: #a5d6a7;
+}
+.item7 {
+  background-color: #e6ee9c;
+}
+.item8 {
+  background-color: #c5e817;
+}
+.item9 {
+  background-color: #ad8017;
+}
+.item10 {
+  background-color: #a63012;
+}

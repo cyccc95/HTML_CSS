@@ -1,0 +1,30 @@
+/* selector {
+  property: value;
+} */
+
+* {
+  color: green;
+}
+
+li {
+  color: blue;
+}
+
+#special {
+  color: pink;
+}
+
+.red {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+}
+
+button:hover {
+  color: white;
+  background-color: black;
+}
+
+a[href="naver.com"] {
+  color: purple;
+}
